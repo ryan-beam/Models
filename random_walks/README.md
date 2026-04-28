@@ -20,7 +20,7 @@ The reason random walks are so universal is that **anything driven by many small
 
 ## What we'll build
 
-This folder works through random walks from absolute scratch. Each numbered subfolder is a small standalone exploration with code and a short markdown explainer. Read them in order if you're new to this.
+This folder works through random walks from absolute scratch. Each numbered subfolder is a small standalone Jupyter notebook that interleaves explanation, code, and visualizations (including animations). Read them in order if you're new to this.
 
 | Folder | What you'll learn |
 |---|---|
@@ -43,14 +43,12 @@ This single fact — the **$\sqrt{t}$ law** — has consequences that ripple thr
 
 ## How to use this folder
 
-Each subfolder is meant to be opened, the code run, the picture stared at, and the markdown read. You don't need any prior probability or statistics background — just a willingness to play with code and notice patterns.
+Each subfolder has a `.ipynb` notebook. Open it, run the cells top to bottom, stare at the pictures, tweak the parameters, and re-run. You don't need any prior probability or statistics background — just a willingness to play with code and notice patterns.
 
 ## Setup
 
-Everything here uses Python with NumPy and Matplotlib. If you don't have them:
-
 ```bash
-pip install numpy matplotlib
+pip install numpy matplotlib jupyter
 ```
 
-That's it. No frameworks, no dependencies beyond the basics.
+Then `jupyter lab` (or `jupyter notebook`, or open the `.ipynb` in VS Code / your editor of choice).
